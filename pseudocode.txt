@@ -1,0 +1,11 @@
+Algorithm FindMaximumElement(arr, n)
+
+1. Start
+2. Initialize max = arr[0]   // Assume the first element is the maximum
+3. For i = 1 to n - 1 do     // Loop through the array starting from the second element
+     a. If arr[i] > max then
+           max = arr[i]      // Update max if the current element is greater
+4. End For
+5. Print max                 // max now contains the maximum element
+6. End
+
